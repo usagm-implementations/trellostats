@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repository.git"
+    "url": "https://github.com/usagm-implementations/trellostats"
   },
   "scripts": {
     "start": "node src/express.js"

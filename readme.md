@@ -1,8 +1,8 @@
 # Installation
 
-### Clone from GitHub
+### Clone from GitHub (follow along GitHub documentation for more details)
 
-1. `git clone `
+1. `git clone git@github.com:usagm-implementations/trellostats.git`
 
 ### Install and set up Docker
 
