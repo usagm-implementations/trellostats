@@ -1,0 +1,20 @@
+{
+  "name": "trello",
+  "version": "1.0.0",
+  "description": "trello information",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "scripts": {
+    "start": "node src/express.js"
+  },
+  "author": "rashmee prakash",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "require": "^2.4.20"
+  }
+}

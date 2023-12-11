@@ -1,0 +1,128 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'i',
+1 verbose cli   '@types/express',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @types/express
+8 silly fetchNamedPackageData @types/express
+9 silly mapToRegistry name @types/express
+10 silly mapToRegistry scope (from package name) @types
+11 verbose mapToRegistry no registry URL found in name for scope @types
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: '@types/express',
+14 silly mapToRegistry   scope: '@types',
+14 silly mapToRegistry   escapedName: '@types%2fexpress',
+14 silly mapToRegistry   name: '@types/express',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress
+16 verbose request uri https://registry.npmjs.org/@types%2fexpress
+17 verbose request no auth needed
+18 info attempt registry request try #1 at 3:06:23 PM
+19 verbose request id 115867a92b557dcc
+20 verbose etag W/"b92300310009510438b93196e79b1299"
+21 verbose lastModified Tue, 07 Nov 2023 03:10:17 GMT
+22 http request GET https://registry.npmjs.org/@types%2fexpress
+23 http 304 https://registry.npmjs.org/@types%2fexpress
+24 verbose headers { date: 'Mon, 11 Dec 2023 20:06:23 GMT',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'cf-ray': '8340590a5fcd2093-IAD',
+24 verbose headers   'cf-cache-status': 'HIT',
+24 verbose headers   age: '54',
+24 verbose headers   'cache-control': 'public, max-age=300',
+24 verbose headers   etag: '"b92300310009510438b93196e79b1299"',
+24 verbose headers   'last-modified': 'Tue, 07 Nov 2023 03:10:17 GMT',
+24 verbose headers   vary: 'Accept-Encoding',
+24 verbose headers   server: 'cloudflare' }
+25 silly get cb [ 304,
+25 silly get   { date: 'Mon, 11 Dec 2023 20:06:23 GMT',
+25 silly get     connection: 'keep-alive',
+25 silly get     'cf-ray': '8340590a5fcd2093-IAD',
+25 silly get     'cf-cache-status': 'HIT',
+25 silly get     age: '54',
+25 silly get     'cache-control': 'public, max-age=300',
+25 silly get     etag: '"b92300310009510438b93196e79b1299"',
+25 silly get     'last-modified': 'Tue, 07 Nov 2023 03:10:17 GMT',
+25 silly get     vary: 'Accept-Encoding',
+25 silly get     server: 'cloudflare' } ]
+26 verbose etag https://registry.npmjs.org/@types%2fexpress from cache
+27 verbose get saving @types/express to /Users/rashmee/.npm/registry.npmjs.org/_40types_252fexpress/.cache.json
+28 verbose correctMkdir /Users/rashmee/.npm correctMkdir not in flight; initializing
+29 silly install normalizeTree
+30 silly loadCurrentTree Finishing
+31 silly loadIdealTree Starting
+32 silly install loadIdealTree
+33 silly cloneCurrentTree Starting
+34 silly install cloneCurrentTreeToIdealTree
+35 silly cloneCurrentTree Finishing
+36 silly loadShrinkwrap Starting
+37 silly install loadShrinkwrap
+38 silly loadShrinkwrap Finishing
+39 silly loadAllDepsIntoIdealTree Starting
+40 silly install loadAllDepsIntoIdealTree
+41 silly resolveWithNewModule @types/express@4.17.21 checking installable status
+42 silly cache add args [ '@types/express', null ]
+43 verbose cache add spec @types/express
+44 silly cache add parsed spec Result {
+44 silly cache add   raw: '@types/express',
+44 silly cache add   scope: '@types',
+44 silly cache add   escapedName: '@types%2fexpress',
+44 silly cache add   name: '@types/express',
+44 silly cache add   rawSpec: '',
+44 silly cache add   spec: 'latest',
+44 silly cache add   type: 'tag' }
+45 silly addNamed @types/express@latest
+46 verbose addNamed "latest" is being treated as a dist-tag for @types/express
+47 info addNameTag [ '@types/express', 'latest' ]
+48 silly mapToRegistry name @types/express
+49 silly mapToRegistry scope (from package name) @types
+50 verbose mapToRegistry no registry URL found in name for scope @types
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: '@types/express',
+53 silly mapToRegistry   scope: '@types',
+53 silly mapToRegistry   escapedName: '@types%2fexpress',
+53 silly mapToRegistry   name: '@types/express',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress
+55 verbose addNameTag registry:https://registry.npmjs.org/@types%2fexpress not in flight; fetching
+56 verbose get https://registry.npmjs.org/@types%2fexpress not expired, no request
+57 silly addNameTag next cb for @types/express with tag latest
+58 silly addNamed @types/express@4.17.21
+59 verbose addNamed "4.17.21" is a plain semver version for @types/express
+60 silly rollbackFailedOptional Starting
+61 silly rollbackFailedOptional Finishing
+62 silly runTopLevelLifecycles Finishing
+63 silly install printInstalled
+64 verbose stack Error: Invalid name: "@types/express"
+64 verbose stack     at ensureValidName (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:302:15)
+64 verbose stack     at Object.fixNameField (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/fixer.js:206:5)
+64 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:29:38
+64 verbose stack     at Array.forEach (native)
+64 verbose stack     at normalize (/usr/local/lib/node_modules/npm/node_modules/read-package-json/node_modules/normalize-package-data/lib/normalize.js:28:15)
+64 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:349:5)
+64 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+64 verbose stack     at ReadFileContext.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:295:20)
+64 verbose stack     at ReadFileContext.callback (/usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16)
+64 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (fs.js:365:13)
+65 verbose cwd /Users/rashmee/Desktop/trellostats
+66 error Darwin 21.6.0
+67 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "@types/express" "--save-dev"
+68 error node v6.9.5
+69 error npm  v3.10.10
+70 error Invalid name: "@types/express"
+71 error If you need help, you may report this error at:
+71 error     <https://github.com/npm/npm/issues>
+72 verbose exit [ 1, true ]
